@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "APC Imported UPS",
+    "description": "Premium imported UPS systems with reliable performance and advanced features for both home and office use.",
+    "features": [
+      "Pure sine wave output",
+      "Automatic voltage regulation",
+      "Battery backup and surge protection",
+      "LCD display for system status"
+    ],
+    "image": "/assets/products/apc-ups.svg"
+  },
+  {
+    "id": 2,
+    "name": "Homage UPS",
+    "description": "High-quality Homage UPS systems providing reliable power backup solutions for residential and small business needs.",
+    "features": [
+      "Multiple charging modes",
+      "Short circuit protection",
+      "Overload protection",
+      "LED indicators"
+    ],
+    "image": "/assets/products/homage-ups.svg"
+  },
+  {
+    "id": 3,
+    "name": "Solarmax UPS",
+    "description": "Efficient Solarmax UPS systems designed for optimal performance and energy savings with solar compatibility.",
+    "features": [
+      "Solar charging capability",
+      "Fast charging technology",
+      "Low voltage protection",
+      "Intelligent battery management"
+    ],
+    "image": "/assets/products/solarmax-ups.svg"
+  },
+  {
+    "id": 4,
+    "name": "Inverex UPS",
+    "description": "Reliable Inverex UPS systems offering stable power backup with advanced protection features.",
+    "features": [
+      "Digital control system",
+      "Wide input voltage range",
+      "Comprehensive protection system",
+      "Energy-saving design"
+    ],
+    "image": "/assets/products/inverex-ups.svg"
+  },
+  {
+    "id": 5,
+    "name": "Solar Inverters",
+    "description": "High-efficiency solar inverters for converting DC power from solar panels to AC power for home and business use.",
+    "features": [
+      "Maximum power point tracking",
+      "High conversion efficiency",
+      "Grid-tie and off-grid options",
+      "Smart monitoring capabilities"
+    ],
+    "image": "/assets/products/solar-inverter.svg"
+  },
+  {
+    "id": 6,
+    "name": "Lead-Acid & Lithium Batteries",
+    "description": "Wide range of high-quality batteries including traditional lead-acid and modern lithium batteries for all power backup needs.",
+    "features": [
+      "Long service life",
+      "Deep cycle capability",
+      "Maintenance-free options",
+      "Various capacity options"
+    ],
+    "image": "/assets/products/batteries.svg"
+  }
+] 

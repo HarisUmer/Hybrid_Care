@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Complete Hybrid Battery Replacement",
+    "description": "Professional replacement of your hybrid vehicle's battery pack with high-quality imported batteries for optimal performance.",
+    "features": [
+      "Genuine imported battery cells",
+      "Expert installation by trained technicians",
+      "System testing and calibration",
+      "Warranty-backed service"
+    ],
+    "icon": "battery"
+  },
+  {
+    "id": 2,
+    "name": "Lithium Battery Pack Installation",
+    "description": "Upgrade your hybrid vehicle with advanced lithium battery packs for improved performance and extended lifespan.",
+    "features": [
+      "Premium lithium battery cells",
+      "Professional installation",
+      "System optimization",
+      "Performance monitoring"
+    ],
+    "icon": "zap"
+  },
+  {
+    "id": 3,
+    "name": "Hybrid System Diagnostics",
+    "description": "Comprehensive diagnostic services to identify and resolve issues with your hybrid vehicle's battery system.",
+    "features": [
+      "Advanced diagnostic equipment",
+      "Detailed system analysis",
+      "Issue identification",
+      "Performance optimization recommendations"
+    ],
+    "icon": "settings"
+  },
+  {
+    "id": 4,
+    "name": "Home Installation Services",
+    "description": "Convenient installation services at your home or location of choice for nearby areas in Gujranwala.",
+    "features": [
+      "No need to bring your vehicle to our shop",
+      "Experienced mobile technicians",
+      "Complete tooling and equipment",
+      "Professional installation at your convenience"
+    ],
+    "icon": "tool"
+  },
+  {
+    "id": 5,
+    "name": "Hybrid System Repair",
+    "description": "Expert repair services for hybrid battery systems, addressing specific issues without requiring full replacement.",
+    "features": [
+      "Individual cell replacement",
+      "System component repair",
+      "Performance restoration",
+      "Cost-effective solutions"
+    ],
+    "icon": "wrench"
+  },
+  {
+    "id": 6,
+    "name": "Warranty & Support",
+    "description": "Comprehensive warranty coverage and ongoing support for all hybrid battery services provided by Hybrid Care.",
+    "features": [
+      "Extended warranty options",
+      "Technical support",
+      "Performance monitoring",
+      "Maintenance recommendations"
+    ],
+    "icon": "shield"
+  }
+] 

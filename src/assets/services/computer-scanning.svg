@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#f8fafc"/>
+  <rect x="50" y="50" width="100" height="70" rx="5" fill="#0f172a"/>
+  <rect x="60" y="60" width="80" height="40" rx="3" fill="#1e293b"/>
+  <line x1="70" y1="80" x2="90" y2="70" stroke="#10b981" stroke-width="2"/>
+  <line x1="90" y1="70" x2="110" y2="90" stroke="#10b981" stroke-width="2"/>
+  <line x1="110" y1="90" x2="130" y2="65" stroke="#10b981" stroke-width="2"/>
+  <circle cx="70" cy="80" r="3" fill="#10b981"/>
+  <circle cx="90" cy="70" r="3" fill="#10b981"/>
+  <circle cx="110" cy="90" r="3" fill="#10b981"/>
+  <circle cx="130" cy="65" r="3" fill="#10b981"/>
+  <rect x="70" y="120" width="60" height="5" rx="2" fill="#64748b"/>
+  <rect x="90" y="125" width="20" height="15" fill="#64748b"/>
+  <text x="100" y="160" font-family="Arial" font-size="14" fill="#1e3a8a" text-anchor="middle">Computer Scanning</text>
+</svg> 

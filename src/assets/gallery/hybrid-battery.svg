@@ -1,0 +1,36 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F8FAFC"/>
+  
+  <!-- Car Silhouette -->
+  <path d="M100 350 L200 350 L250 300 L550 300 L600 350 L700 350 L700 450 L100 450 Z" fill="#94A3B8"/>
+  <rect x="150" y="450" width="100" height="30" rx="10" fill="#64748B"/>
+  <rect x="550" y="450" width="100" height="30" rx="10" fill="#64748B"/>
+  
+  <!-- Wheels -->
+  <circle cx="200" cy="480" r="50" fill="#334155"/>
+  <circle cx="200" cy="480" r="30" fill="#94A3B8"/>
+  <circle cx="600" cy="480" r="50" fill="#334155"/>
+  <circle cx="600" cy="480" r="30" fill="#94A3B8"/>
+  
+  <!-- Windows -->
+  <path d="M250 300 L300 250 L500 250 L550 300 Z" fill="#CBD5E1"/>
+  
+  <!-- Battery Pack -->
+  <rect x="250" y="350" width="300" height="80" rx="10" fill="#10B981"/>
+  <rect x="260" y="360" width="280" height="60" rx="5" fill="#0D9488"/>
+  
+  <!-- Battery Cells -->
+  <rect x="270" y="370" width="40" height="40" rx="2" fill="#14B8A6"/>
+  <rect x="320" y="370" width="40" height="40" rx="2" fill="#14B8A6"/>
+  <rect x="370" y="370" width="40" height="40" rx="2" fill="#14B8A6"/>
+  <rect x="420" y="370" width="40" height="40" rx="2" fill="#14B8A6"/>
+  <rect x="470" y="370" width="40" height="40" rx="2" fill="#14B8A6"/>
+  
+  <!-- Battery Terminals -->
+  <rect x="280" y="340" width="20" height="10" rx="2" fill="#F43F5E"/>
+  <rect x="500" y="340" width="20" height="10" rx="2" fill="#3B82F6"/>
+  
+  <!-- Text -->
+  <text x="400" y="200" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#0F172A">HYBRID BATTERY INSTALLATION</text>
+  <text x="400" y="230" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">High-Quality Imported Cells</text>
+</svg> 

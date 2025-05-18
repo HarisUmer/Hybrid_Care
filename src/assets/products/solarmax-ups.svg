@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#f8fafc"/>
+  <rect x="75" y="75" width="150" height="100" rx="5" fill="#0891b2"/>
+  <rect x="90" y="90" width="120" height="70" rx="3" fill="#0e7490"/>
+  <rect x="100" y="100" width="100" height="40" fill="#22d3ee"/>
+  <circle cx="110" cy="120" r="5" fill="#ffffff"/>
+  <circle cx="130" cy="120" r="5" fill="#fbbf24"/>
+  <rect x="150" y="110" width="40" height="5" rx="2" fill="#ffffff"/>
+  <rect x="150" y="120" width="30" height="5" rx="2" fill="#ffffff"/>
+  <rect x="150" y="130" width="35" height="5" rx="2" fill="#ffffff"/>
+  <text x="150" y="180" font-family="Arial" font-size="16" fill="#0e7490" text-anchor="middle" font-weight="bold">Solarmax UPS</text>
+  <rect x="90" y="175" width="120" height="5" rx="2" fill="#0891b2"/>
+  <rect x="110" y="185" width="80" height="5" rx="2" fill="#0891b2"/>
+  <circle cx="75" cy="60" r="15" fill="#fbbf24"/>
+  <line x1="75" y1="45" x2="75" y2="75" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="60" y1="60" x2="90" y2="60" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="65" y1="50" x2="85" y2="70" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="65" y1="70" x2="85" y2="50" stroke="#fbbf24" stroke-width="2"/>
+</svg> 

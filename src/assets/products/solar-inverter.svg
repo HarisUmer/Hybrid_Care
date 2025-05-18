@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#f8fafc"/>
+  <rect x="75" y="75" width="150" height="100" rx="5" fill="#059669"/>
+  <rect x="90" y="90" width="120" height="70" rx="3" fill="#047857"/>
+  <rect x="100" y="100" width="100" height="40" fill="#34d399"/>
+  <circle cx="110" cy="120" r="5" fill="#ffffff"/>
+  <circle cx="130" cy="120" r="5" fill="#fbbf24"/>
+  <rect x="150" y="110" width="40" height="5" rx="2" fill="#ffffff"/>
+  <rect x="150" y="120" width="30" height="5" rx="2" fill="#ffffff"/>
+  <rect x="150" y="130" width="35" height="5" rx="2" fill="#ffffff"/>
+  <text x="150" y="180" font-family="Arial" font-size="16" fill="#047857" text-anchor="middle" font-weight="bold">Solar Inverter</text>
+  <rect x="90" y="175" width="120" height="5" rx="2" fill="#059669"/>
+  <rect x="110" y="185" width="80" height="5" rx="2" fill="#059669"/>
+  
+  <!-- Solar Panel -->
+  <rect x="200" y="40" width="50" height="30" fill="#0f172a"/>
+  <line x1="210" y1="40" x2="210" y2="70" stroke="#1e293b" stroke-width="1"/>
+  <line x1="220" y1="40" x2="220" y2="70" stroke="#1e293b" stroke-width="1"/>
+  <line x1="230" y1="40" x2="230" y2="70" stroke="#1e293b" stroke-width="1"/>
+  <line x1="240" y1="40" x2="240" y2="70" stroke="#1e293b" stroke-width="1"/>
+  <line x1="200" y1="50" x2="250" y2="50" stroke="#1e293b" stroke-width="1"/>
+  <line x1="200" y1="60" x2="250" y2="60" stroke="#1e293b" stroke-width="1"/>
+  
+  <!-- Sun -->
+  <circle cx="225" cy="25" r="10" fill="#fbbf24"/>
+  <line x1="225" y1="10" x2="225" y2="15" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="225" y1="35" x2="225" y2="40" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="210" y1="25" x2="215" y2="25" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="235" y1="25" x2="240" y2="25" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="215" y1="15" x2="218" y2="18" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="232" y1="32" x2="235" y2="35" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="215" y1="35" x2="218" y2="32" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="232" y1="18" x2="235" y2="15" stroke="#fbbf24" stroke-width="2"/>
+  
+  <!-- Connection Line -->
+  <path d="M225 70 L225 90 L150 90" stroke="#047857" stroke-width="2" fill="none"/>
+</svg> 

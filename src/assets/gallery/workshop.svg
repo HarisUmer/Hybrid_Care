@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f1f5f9"/>
+  <rect x="100" y="200" width="600" height="300" fill="#64748b"/>
+  <rect x="150" y="250" width="200" height="250" fill="#334155"/>
+  <rect x="450" y="250" width="200" height="250" fill="#334155"/>
+  <rect x="200" y="300" width="100" height="100" fill="#94a3b8"/>
+  <rect x="500" y="300" width="100" height="100" fill="#94a3b8"/>
+  <rect x="350" y="400" width="100" height="100" fill="#475569"/>
+  <text x="400" y="150" font-family="Arial" font-size="24" fill="#334155" text-anchor="middle">Workshop</text>
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#475569" stroke-width="10"/>
+</svg> 

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "UPS Sales & Installation",
+    "description": "We offer a wide range of UPS systems from top brands including APC, Homage, Solarmax, and Inverex with professional installation services.",
+    "features": [
+      "Expert installation by trained technicians",
+      "Proper wiring and configuration",
+      "System testing and verification",
+      "User training and operation guidance"
+    ],
+    "icon": "battery"
+  },
+  {
+    "id": 2,
+    "name": "Solar Inverter Solutions",
+    "description": "Complete solar inverter solutions for residential and commercial applications, helping you harness renewable energy efficiently.",
+    "features": [
+      "Solar inverter system design",
+      "Professional installation",
+      "Integration with existing power systems",
+      "Performance monitoring setup"
+    ],
+    "icon": "sun"
+  },
+  {
+    "id": 3,
+    "name": "Battery Replacement",
+    "description": "Professional replacement services for all types of UPS and solar system batteries, including both lead-acid and lithium options.",
+    "features": [
+      "Battery health assessment",
+      "Proper disposal of old batteries",
+      "Installation of new batteries",
+      "System recalibration"
+    ],
+    "icon": "zap"
+  },
+  {
+    "id": 4,
+    "name": "Maintenance & Repair",
+    "description": "Regular maintenance and repair services to ensure your power backup systems operate at peak efficiency and reliability.",
+    "features": [
+      "Preventive maintenance plans",
+      "Troubleshooting and diagnostics",
+      "Component replacement",
+      "System optimization"
+    ],
+    "icon": "settings"
+  },
+  {
+    "id": 5,
+    "name": "Consultation Services",
+    "description": "Expert advice on choosing the right power backup solution for your specific needs, whether residential or commercial.",
+    "features": [
+      "Load assessment",
+      "System sizing recommendations",
+      "Cost-benefit analysis",
+      "Energy efficiency planning"
+    ],
+    "icon": "users"
+  },
+  {
+    "id": 6,
+    "name": "Warranty Support",
+    "description": "Comprehensive warranty support for all products sold by Hashim Traders, ensuring peace of mind with your purchase.",
+    "features": [
+      "Warranty registration assistance",
+      "Claim processing",
+      "Replacement of defective parts",
+      "Extended warranty options"
+    ],
+    "icon": "shield"
+  }
+] 

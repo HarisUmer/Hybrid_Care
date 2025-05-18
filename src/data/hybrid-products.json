@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Toyota Prius Battery Pack",
+    "description": "Complete replacement battery pack for Toyota Prius hybrid vehicles, providing optimal performance and extended range.",
+    "features": [
+      "High-quality imported cells",
+      "Optimized for Prius models",
+      "Extended service life",
+      "Warranty-backed performance"
+    ],
+    "image": "/assets/products/prius-battery.svg"
+  },
+  {
+    "id": 2,
+    "name": "Honda Insight Battery Pack",
+    "description": "Premium hybrid battery pack specifically designed for Honda Insight models with enhanced capacity and reliability.",
+    "features": [
+      "Direct replacement for OEM battery",
+      "Improved energy density",
+      "Calibrated for optimal performance",
+      "Professional installation included"
+    ],
+    "image": "/assets/products/insight-battery.svg"
+  },
+  {
+    "id": 3,
+    "name": "Toyota Aqua/Prius C Battery Pack",
+    "description": "Specialized battery pack for Toyota Aqua and Prius C models, delivering reliable performance and fuel efficiency.",
+    "features": [
+      "Compact design for perfect fit",
+      "Enhanced cooling system",
+      "Balanced cell configuration",
+      "Long-lasting performance"
+    ],
+    "image": "/assets/products/aqua-battery.svg"
+  },
+  {
+    "id": 4,
+    "name": "Lithium Upgrade Packs",
+    "description": "Advanced lithium battery upgrades for hybrid vehicles, offering improved performance, reduced weight, and longer lifespan.",
+    "features": [
+      "Lithium-ion technology",
+      "Lighter than standard batteries",
+      "Faster charging capability",
+      "Extended cycle life"
+    ],
+    "image": "/assets/products/lithium-battery.svg"
+  },
+  {
+    "id": 5,
+    "name": "Hybrid Battery Cells",
+    "description": "Individual replacement cells for hybrid battery packs, allowing for targeted repairs without full pack replacement.",
+    "features": [
+      "Match OEM specifications",
+      "Available for all popular models",
+      "Individual cell testing",
+      "Cost-effective repair option"
+    ],
+    "image": "/assets/products/battery-cells.svg"
+  },
+  {
+    "id": 6,
+    "name": "Diagnostic Equipment",
+    "description": "Professional-grade diagnostic tools for hybrid battery systems, helping identify issues and optimize performance.",
+    "features": [
+      "Cell voltage monitoring",
+      "System health analysis",
+      "Performance testing",
+      "Calibration capabilities"
+    ],
+    "image": "/assets/products/diagnostic-tools.svg"
+  }
+] 

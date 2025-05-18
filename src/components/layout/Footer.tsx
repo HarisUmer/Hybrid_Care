@@ -175,7 +175,7 @@ const Footer: React.FC = () => {
                 <Clock className={`w-5 h-5 ${isHashimTraders ? 'text-primary-400' : 'text-green-400'} mr-3 mt-1 flex-shrink-0`} />
                 <div>
                   <p>Monday - Sunday: 9:30 AM - 8:00 PM</p>
-                  <p>'Friday: Closed'</p>
+                  <p>Friday: Closed</p>
                 </div>
               </div>
             </div>

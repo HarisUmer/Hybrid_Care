@@ -330,10 +330,10 @@ const HomePage: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="flex flex-wrap justify-center gap-4"
           >
-            <Link to={`/${activeBusiness}/contact`} className="btn btn-white">
+            <Link to="/contact" className="btn btn-white">
               Contact Us
             </Link>
-            <Link to={`/${activeBusiness}/${isHashimTraders ? 'products' : 'services'}`} className="btn btn-outline text-white border-white hover:bg-white hover:text-primary-900">
+            <Link to={isHashimTraders ? "/products" : "/services"} className="btn btn-outline text-white border-white hover:bg-white hover:text-primary-900">
               {isHashimTraders ? 'View Products' : 'Our Services'}
             </Link>
           </motion.div>

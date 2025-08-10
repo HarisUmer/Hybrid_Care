@@ -1,28 +1,26 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { useBusiness } from '../../context/BusinessContext';
 
 const BusinessSwitcher: React.FC = () => {
-  const { isHashimTraders, isHybridCare } = useBusiness();
+  const { activeBusiness, setActiveBusiness, isHashimTraders, isHybridCare } = useBusiness();
+
+  const handleBusinessSwitch = () => {
+    if (isHashimTraders) {
+      setActiveBusiness('hybrid');
+    } else {
+      setActiveBusiness('hashim');
+    }
+  };
 
   return (
     <div className="flex items-center space-x-2 px-3 py-1 bg-gray-100 rounded-full border border-gray-200">
       <span className="text-sm text-gray-600">Switch to:</span>
-      {isHashimTraders ? (
-        <Link
-          to="/hybrid"
-          className="text-sm font-medium text-green-600 hover:text-green-800 transition-colors"
-        >
-          Hybrid Care
-        </Link>
-      ) : (
-        <Link
-          to="/hashim"
-          className="text-sm font-medium text-primary-600 hover:text-primary-800 transition-colors"
-        >
-          Hashim Traders
-        </Link>
-      )}
+      <button
+        onClick={handleBusinessSwitch}
+        className="text-sm font-medium text-primary-600 hover:text-primary-800 transition-colors cursor-pointer"
+      >
+        {isHashimTraders ? 'Hybrid Care' : 'Hashim Traders'}
+      </button>
     </div>
   );
 };

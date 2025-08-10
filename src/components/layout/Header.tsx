@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { useBusiness } from '../../context/BusinessContext';
 import hashimLogo from '../../assets/logo/HashimTraders_logo.png';
 import hybridLogo from '../../assets/logo/Hybrid_Logo.png';
+import BusinessSwitcher from './BusinessSwitcher';
 
 interface HeaderProps {
   scrolled: boolean;
@@ -105,6 +106,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
           >
             Get a Quote
           </Link>
+          <BusinessSwitcher />
         </nav>
 
         {/* Mobile Navigation Button */}
@@ -207,6 +209,9 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
               >
                 Get a Quote
               </Link>
+              <div className="pt-4 border-t border-gray-200">
+                <BusinessSwitcher />
+              </div>
             </div>
           </div>
         </motion.div>

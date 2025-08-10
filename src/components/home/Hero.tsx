@@ -10,7 +10,6 @@ import hybridBattery from '../../assets/gallery/hybrid-battery.svg';
 const Hero: React.FC = () => {
   const { activeBusiness, isHashimTraders, isHybridCare } = useBusiness();
   const business = businesses[activeBusiness];
-  const homeRoute = isHashimTraders ? '/hashim' : '/hybrid';
   const heroImage = isHashimTraders ? batteryInstallation : hybridBattery;
   
   return (
@@ -77,11 +76,11 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="flex flex-wrap gap-4"
             >
-              <Link to={`${homeRoute}/contact`} className="btn btn-primary">
+              <Link to="/contact" className="btn btn-primary">
                 Get a Quote <ChevronRight className="ml-2 h-5 w-5" />
               </Link>
               <Link 
-                to={isHashimTraders ? `${homeRoute}/products` : `${homeRoute}/services`}
+                to={isHashimTraders ? "/products" : "/services"}
                 className="btn btn-outline text-white border-white hover:bg-white hover:text-primary-900"
               >
                 {isHashimTraders ? 'Explore Products' : 'Our Services'}

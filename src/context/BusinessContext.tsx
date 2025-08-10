@@ -16,7 +16,7 @@ interface BusinessProviderProps {
 }
 
 export const BusinessProvider: React.FC<BusinessProviderProps> = ({ children }) => {
-  const [activeBusiness, setActiveBusiness] = useState<BusinessType>('hashim');
+  const [activeBusiness, setActiveBusiness] = useState<BusinessType>('hybrid');
 
   const isHashimTraders = activeBusiness === 'hashim';
   const isHybridCare = activeBusiness === 'hybrid';

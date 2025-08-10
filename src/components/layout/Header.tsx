@@ -3,7 +3,6 @@ import { Link, NavLink, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useBusiness } from '../../context/BusinessContext';
-import BusinessSwitcher from './BusinessSwitcher';
 import hashimLogo from '../../assets/logo/HashimTraders_logo.png';
 import hybridLogo from '../../assets/logo/Hybrid_Logo.png';
 
@@ -18,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
   const { isHashimTraders, isHybridCare } = useBusiness();
 
   useEffect(() => {
-    setIsHomePage(location.pathname === '/hashim' || location.pathname === '/hybrid');
+    setIsHomePage(location.pathname === '/');
     // Close mobile menu on route change
     setIsMenuOpen(false);
   }, [location]);
@@ -38,7 +37,6 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
   const logoColor = isHashimTraders ? 'text-primary-600' : 'text-green-600';
   const logo = isHashimTraders ? hashimLogo : hybridLogo;
   const businessName = isHashimTraders ? 'Hashim Traders' : 'Hybrid Care';
-  const homeRoute = isHashimTraders ? '/hashim' : '/hybrid';
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -47,14 +45,14 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
   return (
     <header className={headerClass}>
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link to={homeRoute} className="flex items-center space-x-2">
+        <Link to="/" className="flex items-center space-x-2">
           <img src={logo} alt={`${businessName} Logo`} className="h-10" />
         </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center space-x-8">
           <NavLink
-            to={homeRoute}
+            to="/"
             className={({ isActive }) =>
               isActive ? `${linkClass} ${activeClass}` : linkClass
             }
@@ -62,7 +60,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
             Home
           </NavLink>
           <NavLink
-            to={`${homeRoute}/about`}
+            to="/about"
             className={({ isActive }) =>
               isActive ? `${linkClass} ${activeClass}` : linkClass
             }
@@ -70,7 +68,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
             About
           </NavLink>
           <NavLink
-            to={`${homeRoute}/services`}
+            to="/services"
             className={({ isActive }) =>
               isActive ? `${linkClass} ${activeClass}` : linkClass
             }
@@ -78,7 +76,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
             Services
           </NavLink>
           <NavLink
-            to={`${homeRoute}/products`}
+            to="/products"
             className={({ isActive }) =>
               isActive ? `${linkClass} ${activeClass}` : linkClass
             }
@@ -86,7 +84,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
             Products
           </NavLink>
           <NavLink
-            to={`${homeRoute}/gallery`}
+            to="/gallery"
             className={({ isActive }) =>
               isActive ? `${linkClass} ${activeClass}` : linkClass
             }
@@ -94,7 +92,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
             Gallery
           </NavLink>
           <NavLink
-            to={`${homeRoute}/contact`}
+            to="/contact"
             className={({ isActive }) =>
               isActive ? `${linkClass} ${activeClass}` : linkClass
             }
@@ -102,18 +100,15 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
             Contact
           </NavLink>
           <Link
-            to={`${homeRoute}/contact`}
+            to="/contact"
             className="btn btn-primary"
           >
             Get a Quote
           </Link>
-          
-          <BusinessSwitcher />
         </nav>
 
         {/* Mobile Navigation Button */}
         <div className="lg:hidden flex items-center space-x-4">
-          <BusinessSwitcher />
           <button
             className="text-gray-700 focus:outline-none"
             onClick={toggleMenu}
@@ -140,7 +135,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
           <div className="container mx-auto px-4 py-4">
             <div className="flex flex-col space-y-4">
               <NavLink
-                to={homeRoute}
+                to="/"
                 className={({ isActive }) =>
                   isActive
                     ? `text-primary-600 font-semibold border-l-4 border-primary-500 pl-2`
@@ -151,7 +146,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
                 Home
               </NavLink>
               <NavLink
-                to={`${homeRoute}/about`}
+                to="/about"
                 className={({ isActive }) =>
                   isActive
                     ? 'text-primary-600 font-semibold border-l-4 border-primary-500 pl-2'
@@ -162,7 +157,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
                 About
               </NavLink>
               <NavLink
-                to={`${homeRoute}/services`}
+                to="/services"
                 className={({ isActive }) =>
                   isActive
                     ? 'text-primary-600 font-semibold border-l-4 border-primary-500 pl-2'
@@ -173,7 +168,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
                 Services
               </NavLink>
               <NavLink
-                to={`${homeRoute}/products`}
+                to="/products"
                 className={({ isActive }) =>
                   isActive
                     ? 'text-primary-600 font-semibold border-l-4 border-primary-500 pl-2'
@@ -184,7 +179,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
                 Products
               </NavLink>
               <NavLink
-                to={`${homeRoute}/gallery`}
+                to="/gallery"
                 className={({ isActive }) =>
                   isActive
                     ? 'text-primary-600 font-semibold border-l-4 border-primary-500 pl-2'
@@ -195,7 +190,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
                 Gallery
               </NavLink>
               <NavLink
-                to={`${homeRoute}/contact`}
+                to="/contact"
                 className={({ isActive }) =>
                   isActive
                     ? 'text-primary-600 font-semibold border-l-4 border-primary-500 pl-2'
@@ -206,7 +201,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
                 Contact
               </NavLink>
               <Link
-                to={`${homeRoute}/contact`}
+                to="/contact"
                 className="btn btn-primary w-full text-center"
                 onClick={() => setIsMenuOpen(false)}
               >

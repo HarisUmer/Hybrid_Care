@@ -60,7 +60,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-semibold mb-3">APC Imported UPS</h3>
                   <p className="text-gray-600 mb-4">Premium imported UPS systems with reliable performance and advanced features.</p>
-                  <Link to="/hashim/products" className="text-primary-600 font-medium inline-flex items-center">
+                  <Link to="/products" className="text-primary-600 font-medium inline-flex items-center">
                     Learn More <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
                 </motion.div>
@@ -77,7 +77,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-semibold mb-3">Branded UPS</h3>
                   <p className="text-gray-600 mb-4">Top local brands including Homage, Solarmax, and Inverex with warranty coverage.</p>
-                  <Link to="/hashim/products" className="text-primary-600 font-medium inline-flex items-center">
+                  <Link to="/products" className="text-primary-600 font-medium inline-flex items-center">
                     Learn More <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
                 </motion.div>
@@ -94,7 +94,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-semibold mb-3">Solar Inverters</h3>
                   <p className="text-gray-600 mb-4">Efficient solar inverters for sustainable energy solutions and reduced electricity bills.</p>
-                  <Link to="/hashim/products" className="text-primary-600 font-medium inline-flex items-center">
+                  <Link to="/products" className="text-primary-600 font-medium inline-flex items-center">
                     Learn More <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
                 </motion.div>
@@ -111,7 +111,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-semibold mb-3">Batteries</h3>
                   <p className="text-gray-600 mb-4">Lead-Acid & Lithium Batteries for all types of UPS and solar systems with extended life.</p>
-                  <Link to="/hashim/products" className="text-primary-600 font-medium inline-flex items-center">
+                  <Link to="/products" className="text-primary-600 font-medium inline-flex items-center">
                     Learn More <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
                 </motion.div>
@@ -131,7 +131,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-semibold mb-3">Hybrid Battery Packs</h3>
                   <p className="text-gray-600 mb-4">Brand-new hybrid battery packs for optimal performance and extended life.</p>
-                  <Link to="/hybrid/products" className="text-primary-600 font-medium inline-flex items-center">
+                  <Link to="/products" className="text-primary-600 font-medium inline-flex items-center">
                     Learn More <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
                 </motion.div>
@@ -148,7 +148,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-semibold mb-3">Lithium Battery Upgrades</h3>
                   <p className="text-gray-600 mb-4">Advanced lithium battery upgrades for improved performance and longer lifespan.</p>
-                  <Link to="/hybrid/products" className="text-primary-600 font-medium inline-flex items-center">
+                  <Link to="/products" className="text-primary-600 font-medium inline-flex items-center">
                     Learn More <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
                 </motion.div>
@@ -165,7 +165,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-semibold mb-3">Diagnostic Services</h3>
                   <p className="text-gray-600 mb-4">Comprehensive hybrid system diagnostics to identify and resolve battery issues.</p>
-                  <Link to="/hybrid/services" className="text-primary-600 font-medium inline-flex items-center">
+                  <Link to="/services" className="text-primary-600 font-medium inline-flex items-center">
                     Learn More <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
                 </motion.div>
@@ -182,7 +182,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-semibold mb-3">Home Installation</h3>
                   <p className="text-gray-600 mb-4">Convenient home installation and pick-up services available in nearby areas.</p>
-                  <Link to="/hybrid/services" className="text-primary-600 font-medium inline-flex items-center">
+                  <Link to="/services" className="text-primary-600 font-medium inline-flex items-center">
                     Learn More <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
                 </motion.div>
@@ -209,7 +209,7 @@ const HomePage: React.FC = () => {
                 <p className="text-lg text-gray-600">
                   With over a decade of experience, we proudly deal in imported APC UPS units and top local brands 
                   such as Homage, Solarmax, and Inverex. Whether you need a reliable UPS, solar inverter setup, 
-                  or battery replacement, Hashim Traders is your one-stop solution.
+                  or battery replacement, {business.name} is your one-stop solution.
                 </p>
               ) : (
                 <p className="text-lg text-gray-600">
@@ -217,7 +217,7 @@ const HomePage: React.FC = () => {
                   and ensures every customer leaves with complete confidence and satisfaction.
                 </p>
               )}
-              <Link to={`/${activeBusiness}/about`} className="btn btn-primary inline-flex items-center">
+              <Link to="/about" className="btn btn-primary inline-flex items-center">
                 Learn More About Us <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
             </motion.div>
@@ -292,7 +292,7 @@ const HomePage: React.FC = () => {
           </div>
           
           <div className="text-center mt-12">
-            <Link to={`/${activeBusiness}/services`} className="btn btn-primary">
+            <Link to="/services" className="btn btn-primary">
               View All Services
             </Link>
           </div>

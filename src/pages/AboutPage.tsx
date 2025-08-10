@@ -31,7 +31,7 @@ const AboutPage: React.FC = () => {
                 <p className="text-lg text-gray-700">
                   With over a decade of experience, we proudly deal in imported APC UPS units and top local brands 
                   such as Homage, Solarmax, and Inverex. Whether you need a reliable UPS, solar inverter setup, 
-                  or battery replacement, Hashim Traders is your one-stop solution.
+                  or battery replacement, {business.name} is your one-stop solution.
                 </p>
                 <div className="mt-8">
                   <h3 className="text-xl font-semibold mb-4">Our Products</h3>
@@ -78,13 +78,13 @@ const AboutPage: React.FC = () => {
                 <p className="text-gray-600">
                   {isHashimTraders ? (
                     <>
-                      Hashim Traders, Haider UPS,<br />
+                      {business.name}, Haider UPS,<br />
                       Main Sui Gas Road, Near Street #07,<br />
                       Gujranwala, 50250, Pakistan
                     </>
                   ) : (
                     <>
-                     Hashim Traders, Haider UPS,<br />
+                     {business.name}, Haider UPS,<br />
                       Main Sui Gas Road, Near Street #07,<br />
                       Gujranwala, 50250, Pakistan
                     </>

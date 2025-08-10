@@ -103,7 +103,7 @@ const ContactPage: React.FC = () => {
                       <MapPin className="w-6 h-6 text-primary-500 mt-1" />
                       <div className="ml-4">
                         <h4 className="font-medium">Address</h4>
-                        <p className="text-gray-600">Hashim Traders, Haider UPS,<br />Main Sui Gas Road, Near Street #07,<br />Gujranwala, 50250, Pakistan</p>
+                        <p className="text-gray-600">{business.name}, Haider UPS,<br />Main Sui Gas Road, Near Street #07,<br />Gujranwala, 50250, Pakistan</p>
                       </div>
                     </div>
                     <div className="flex items-start">
@@ -139,7 +139,7 @@ const ContactPage: React.FC = () => {
                       <MapPin className="w-6 h-6 text-primary-500 mt-1" />
                       <div className="ml-4">
                         <h4 className="font-medium">Address</h4>
-                        <p className="text-gray-600">Hashim Traders, Haider UPS,<br />
+                        <p className="text-gray-600">{business.name}, Haider UPS,<br />
                       Main Sui Gas Road, Near Street #07,<br />
                       Gujranwala, 50250, Pakistan</p>
                       </div>

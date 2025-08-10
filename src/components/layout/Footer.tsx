@@ -19,7 +19,6 @@ const Footer: React.FC = () => {
   const { activeBusiness, isHashimTraders, isHybridCare } = useBusiness();
   const business = businesses[activeBusiness];
   const logo = isHashimTraders ? hashimLogo : hybridLogo;
-  const homeRoute = isHashimTraders ? '/hashim' : '/hybrid';
   
   return (
     <footer className={isHashimTraders ? "bg-primary-900 text-gray-200" : "bg-green-900 text-gray-200"}>
@@ -28,7 +27,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-12 px-4">
           {/* Company Info */}
           <div className="space-y-4">
-            <Link to={homeRoute} className="flex items-center space-x-2">
+            <Link to="/" className="flex items-center space-x-2">
               <img src={logo} alt={`${business.name} Logo`} className="h-10" />
               <span className="text-2xl font-bold text-white">{business.name}</span>
             </Link>
@@ -52,32 +51,32 @@ const Footer: React.FC = () => {
             <h4 className="text-xl font-bold mb-4 text-white">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link to={homeRoute} className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                <Link to="/" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                   <span className="mr-2">›</span> Home
                 </Link>
               </li>
               <li>
-                <Link to={`${homeRoute}/about`} className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                <Link to="/about" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                   <span className="mr-2">›</span> About Us
                 </Link>
               </li>
               <li>
-                <Link to={`${homeRoute}/services`} className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                <Link to="/services" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                   <span className="mr-2">›</span> Services
                 </Link>
               </li>
               <li>
-                <Link to={`${homeRoute}/products`} className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                <Link to="/products" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                   <span className="mr-2">›</span> Products
                 </Link>
               </li>
               <li>
-                <Link to={`${homeRoute}/gallery`} className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                <Link to="/gallery" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                   <span className="mr-2">›</span> Gallery
                 </Link>
               </li>
               <li>
-                <Link to={`${homeRoute}/contact`} className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                <Link to="/contact" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                   <span className="mr-2">›</span> Contact
                 </Link>
               </li>
@@ -94,32 +93,32 @@ const Footer: React.FC = () => {
                 // Hashim Traders Products
                 <>
                   <li>
-                    <Link to="/hashim/products" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                    <Link to="/products" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                       <span className="mr-2">›</span> APC Imported UPS
                     </Link>
                   </li>
                   <li>
-                    <Link to="/hashim/products" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                    <Link to="/products" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                       <span className="mr-2">›</span> Homage UPS
                     </Link>
                   </li>
                   <li>
-                    <Link to="/hashim/products" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                    <Link to="/products" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                       <span className="mr-2">›</span> Solarmax UPS
                     </Link>
                   </li>
                   <li>
-                    <Link to="/hashim/products" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                    <Link to="/products" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                       <span className="mr-2">›</span> Inverex UPS
                     </Link>
                   </li>
                   <li>
-                    <Link to="/hashim/products" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                    <Link to="/products" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                       <span className="mr-2">›</span> Solar Inverters
                     </Link>
                   </li>
                   <li>
-                    <Link to="/hashim/products" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                    <Link to="/products" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                       <span className="mr-2">›</span> Lead-Acid & Lithium Batteries
                     </Link>
                   </li>
@@ -129,7 +128,7 @@ const Footer: React.FC = () => {
                 <>
                   {business.services.items.map((service, index) => (
                     <li key={index}>
-                      <Link to="/hybrid/services" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                      <Link to="/services" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                         <span className="mr-2">›</span> {service}
                       </Link>
                     </li>
@@ -147,9 +146,9 @@ const Footer: React.FC = () => {
                 <MapPin className={`w-5 h-5 ${isHashimTraders ? 'text-primary-400' : 'text-green-400'} mr-3 mt-1 flex-shrink-0`} />
                 <p>
                   {isHashimTraders ? (
-                    <>Hashim Traders, Haider UPS,<br />Main Sui Gas Road, Near Street #07,<br />Gujranwala, 50250, Pakistan</>
+                    <>{business.name}, Haider UPS,<br />Main Sui Gas Road, Near Street #07,<br />Gujranwala, 50250, Pakistan</>
                   ) : (
-                    <>Hashim Traders, Haider UPS,<br />
+                    <>{business.name}, Haider UPS,<br />
                     Main Sui Gas Road, Near Street #07,<br />
                     Gujranwala, 50250, Pakistan</>
                   )}
